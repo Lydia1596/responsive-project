@@ -68,8 +68,8 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
-  h1 {
+@media (max-width: 991px) {
+  .hero h1 {
     font-size: 50px;
   }
   h2 {
