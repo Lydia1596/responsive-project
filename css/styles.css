@@ -5,6 +5,48 @@
   --secondary-font: "Poppins", sans-serif;
 }
 
+.about-content {
+  padding: 30px;
+}
+
+.about-header {
+  height: 900px;
+  padding-top: 276px;
+}
+
+.about-header .head-shot {
+  max-width: 560px;
+  max-height: auto;
+}
+.about-header h1 {
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.about-header h2 {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  color: var(--secondary-color);
+  text-align: justify;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 46px;
+}
+
 .hero {
   background-color: var(--primary-color);
   height: 900px;
@@ -30,16 +72,6 @@
   font-family: var(--secondary-font);
   font-size: 24px;
   line-height: 36px;
-}
-
-.hero .btn {
-  background-color: var(--secondary-color);
-  border-radius: 4px;
-  color: white;
-  font-family: var(--secondary-font);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 18px 46px;
 }
 
 h2 {
@@ -69,6 +101,10 @@ p {
 }
 
 @media (max-width: 991px) {
+  .about-header {
+    padding: 0;
+    text-align: center;
+  }
   .hero h1 {
     font-size: 60px;
   }
