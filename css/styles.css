@@ -9,7 +9,8 @@
   padding: 30px;
 }
 
-.about-header {
+.about-header,
+.contact-header {
   height: 900px;
   padding-top: 276px;
 }
@@ -45,6 +46,27 @@
   font-size: 18px;
   line-height: 27px;
   padding: 18px 46px;
+}
+
+.contact-header h1 {
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-header h3 {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-header p {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  text-align: center;
 }
 
 .hero {
