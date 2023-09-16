@@ -5,33 +5,40 @@
   --secondary-font: "Poppins", sans-serif;
 }
 
-.about-content {
+.content {
   padding: 30px;
 }
 
-.about-header,
+.content-container,
 .contact-header {
   height: 900px;
   padding-top: 276px;
 }
 
-.about-header .head-shot {
+.content-container .head-shot {
   max-width: 560px;
   max-height: auto;
 }
-.about-header h1 {
+.content-container h1 {
   font-family: var(--primary-font);
   font-size: 64px;
   font-weight: bold;
 }
 
-.about-header h2 {
+.content-container h2 {
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: bold;
 }
 
-.about-header p {
+.content-container h3 {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.content-container p {
   font-family: var(--secondary-font);
   font-size: 16px;
   color: var(--secondary-color);
@@ -123,7 +130,7 @@ p {
 }
 
 @media (max-width: 991px) {
-  .about-header {
+  .content-container {
     padding: 0;
     text-align: center;
   }
