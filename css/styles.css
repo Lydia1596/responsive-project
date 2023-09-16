@@ -19,26 +19,26 @@
   max-width: 560px;
   max-height: auto;
 }
-.content-container h1 {
+.content h1 {
   font-family: var(--primary-font);
   font-size: 64px;
   font-weight: bold;
 }
 
-.content-container h2 {
+.content h2 {
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: bold;
 }
 
-.content-container h3 {
+.content h3 {
   font-family: var(--secondary-font);
   font-size: 26px;
   font-weight: bold;
   text-align: justify;
 }
 
-.content-container p {
+.content p {
   font-family: var(--secondary-font);
   font-size: 16px;
   color: var(--secondary-color);
