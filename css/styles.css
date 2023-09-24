@@ -222,3 +222,12 @@ p,
     text-align: center;
   }
 }
+
+@media (max-width: 330px) {
+  .btn-branding {
+    display: none;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+}
